@@ -2,20 +2,20 @@ package test1;
 
 public class Hero {
 
-		// TODO 自動生成されたメソッド・スタブ
+	//引数なし＝勇者の情報
+	public void print() {
+		System.out.println("勇者の情報");
+	}
 	
 	String name;
-	int gold;
+	int money;
 	int hp;
-		
-		Hero(String name , int gold , int hp){
-			//名前：atjc
-			this.name = name;
-			//所持金：$1000
-			this.gold = gold;
-			//体力：2000
-			this.hp = hp;
-		}
+	
+	public void printInfo(String name,int money,int hp) {
+		System.out.println("名前：" + name);
+		System.out.println("$" + money);
+		System.out.println(hp);
+	}
 
 
 }
