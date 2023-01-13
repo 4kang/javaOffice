@@ -5,6 +5,11 @@ public class For {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		
+		
+		/* for(初期化;条件;変化){
+		 　実行内容
+		 }*/
+		
 		String ai = "アブラカタブラ";
 		
 		System.out.println("ここから出るには呪文を三回唱えなさい");
