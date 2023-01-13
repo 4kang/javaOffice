@@ -9,9 +9,10 @@ public class Main {
 		Hero hero = new Hero();
 		hero.print();
 		
-		hero.printInfo("河野", 1000, 2000);
+		//hero.printInfo("河野", 1000, 2000);
 		
-
+		hero.setString("河野");
+		System.out.println("名前：" + hero.getStr());
 	}
 
 }
