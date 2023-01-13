@@ -3,16 +3,14 @@ package test1;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		
 		//名前：自分の名前、所持金：1000、体力：2000
 		Hero hero = new Hero();
-		hero.print();
+		hero.setName("河野");
+		hero.setMoney(1000);
+		hero.setHp(2000);
 		
-		//hero.printInfo("河野", 1000, 2000);
-		
-		hero.setString("河野");
-		System.out.println("名前：" + hero.getStr());
+		System.out.println("勇者の情報");
+		System.out.println("名前：" + hero.getName());
 	}
 
 }
