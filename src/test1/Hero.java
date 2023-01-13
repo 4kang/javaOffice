@@ -33,6 +33,9 @@ public class Hero {
 		this.hp = hp;
 	}
 	
+	String item1 = "炎の剣";
+	String item2 = "普通の防具";
+	String item3 = "回復薬";
 	
 	
 //	//setter
@@ -63,7 +66,6 @@ public class Hero {
 //		return hp;
 //	}
 //	
-//	String items[] = {"炎の剣","普通の防具","回復薬"};
 //	
 //	
 //	/*System.out.println("名前：" + name);
