@@ -3,8 +3,6 @@ package test1;
 public class For {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		
 		
 		/* for(初期化;条件;変化){
 		 　実行内容

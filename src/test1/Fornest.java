@@ -12,6 +12,14 @@ public class Fornest {
 			System.out.println();
 		}
 		
+		//forネスト
+		for(int a = 0; a<6; a++) {
+			for(int k = 6; k>a; k--) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
 		
 
 	}
